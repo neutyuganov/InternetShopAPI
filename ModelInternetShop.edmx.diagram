@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="14f3fb9964704cf4bf5fbc675b932715" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelInternetShop.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelInternetShop.Заказ" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelInternetShop.Пользователь" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelInternetShop.Роль" Width="1.5" PointX="1.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelInternetShop.СоставЗаказа" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelInternetShop.ТипТовара" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelInternetShop.Товар" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ModelInternetShop.FK_Заказ_Пользователь" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelInternetShop.FK_СоставЗаказа_Заказ" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelInternetShop.FK_Пользователь_Роль" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelInternetShop.FK_СоставЗаказа_Товар" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelInternetShop.FK_Товар_ТипТовара" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
